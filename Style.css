@@ -1,0 +1,94 @@
+body{
+  background-color: #f69e7b;
+}
+/*decorating navbar*/
+#header-nav{
+  height: auto;
+  
+  background-color: #383e56;
+}
+
+/*decorating title name*/
+ #header-nav .Heading{
+  text-shadow: 1px 1px 1px #222;
+  font-size: 2em;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 2;
+  font-family: 'Lora', serif;
+  
+}
+.h2{
+  color: #fff;
+  font-size: 1.25em;
+}
+/*foof llc hover*/
+#header-nav a:hover, #header-nav a:focus{
+  text-decoration: none;
+} 
+.Menu-tag{
+  text-align: center;  
+  font-family: 'Bitter', serif;
+  margin-top: 20px;
+  /*font-size: 2em;*/
+
+}
+
+
+
+
+
+.chicken{
+    margin: 20px;
+    height: auto;
+    width: auto;
+    background-color: rgb(170, 187, 207);
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    border: 1px solid black;
+    border-radius: .5rem;
+}
+.paramain{
+    padding-top: 30px;
+}
+
+
+.navbar-toggle{
+  height: 20px;
+  width: 30px;
+}
+
+ h3{
+  
+  font-family: 'Lora', serif; 
+}
+
+@media(min-width: 600px){
+  .dropdown1{
+    display: none;
+  }
+
+.top-link{
+  display: none;
+}
+
+
+
+}
+
+.dropdown-menu.show{
+  background-color:  rgb(170, 187, 207);
+  top: 125%;
+  width:50px;
+  text-align: center;
+  font-family: 'Lora',serif;
+  min-width: -webkit-fill-available;
+  
+  margin-right: -16px;
+
+}
+ .dropdown-item:active, .dropdown-item:hover{
+  background-color:rgb(170, 187, 207);;
+ }
+ 
